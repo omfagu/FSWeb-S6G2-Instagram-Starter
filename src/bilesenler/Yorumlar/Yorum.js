@@ -1,5 +1,6 @@
 // Bu dosyayı değiştirmenize gerek yok
 import React from 'react';
+import Yorumlar from './Yorumlar';
 
 const Yorum = props => {
   // 🔥 Bu bileşenin parentının aşağıdaki propları düzgün gönderdiğinden emin olun.
@@ -10,6 +11,7 @@ const Yorum = props => {
       <span className='user'>{yorum.username}</span>
       {' '}
       <span className='comment'>{yorum.text}</span>
+      
     </div>
   );
 };
